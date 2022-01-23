@@ -28,7 +28,7 @@ if(isset ($_POST['submit'])){
 
   if  ($res){
     echo ("<script LANGUAGE='JavaScript'>
-            window.alert('Data send to green trash ✔!');
+            window.alert('Data sent to green trash ✔!');
             window.location.href='sell.php';
             </script>");
 }else{
